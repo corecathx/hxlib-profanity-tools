@@ -1,0 +1,14 @@
+{
+    "name": "profanity-tools",
+    "url" : "https://github.com/corecathx/profanity-tools/",
+    "license": "MIT",
+    "tags": ["filter", "profanity", "text"],
+    "description": "A Haxe library used to check and filter texts.",
+    "version": "1.0.0",
+    "classPath": "src/",
+    "releasenote": "Initial release.",
+    "contributors": ["CoreCat"],
+    "dependencies": {
+    },
+    "main": "tools.Main"
+}
