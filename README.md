@@ -1,6 +1,6 @@
 <div style="display:flex; align-items:center; gap:10px;">
     <img src="https://haxe.org/img/branding/haxe-logo-glyph.png" width="30" alt="Haxe logo">
-    <h1 style="margin:0;border-bottom:0;">profanity-tools</h1>
+    <h1 style="margin:0;border-bottom:0; width:fit;">profanity-tools</h1>
 </div>
 <hr>
 
