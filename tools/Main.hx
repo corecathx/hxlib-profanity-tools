@@ -1,7 +1,6 @@
 package tools;
 
 import haxe.Json;
-import sys.io.File;
 import profanity.Phrase;
 import profanity.Processor;
 
@@ -58,13 +57,13 @@ class Main {
             "buttload of fun",
             "hellish weather"
         ];
-        
+
         for (i in testPhrases) {
-            Sys.println('WORD >> ' + i);
+            trace('WORD >> ' + i);
             if (!Phrase.check(i)) {
-                Sys.println('SAFE.');
+                trace('SAFE.');
             } else {
-                Sys.println('UNSAFE.');
+                trace('UNSAFE.');
             }
         }
         /*while (true) {
